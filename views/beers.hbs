@@ -1,0 +1,11 @@
+<h3>All beers page</h3>
+{{#each allBeers}}
+<a href="/beer/{{id}}">
+    
+<img src={{image_url}} alt="beer" />
+<h4>{{name}}</h4>
+<h5>{{description}}</h5>
+<h5>{{tagline}}</h5>
+</a>
+{{/each }}
+
